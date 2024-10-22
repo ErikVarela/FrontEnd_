@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Apresentação Erik Varela</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="imagens/logo.png" width="150" height="150" alt="Logo do Portifolio">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#" id="link-especialidades">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="https://www.instagram.com/varelx__/?__d=1%2F">
+                    <button>Instagram</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>MEU PORTIFÓLIO DE FRONT-END</h1>
+                        <p>Um portfólio de front-end utilizado linguagens HTML e CSS, com imagens geradas por IA.</p>
+                        <div class="btn-contato">
+                            <a href="https://www.linkedin.com/in/erik-varela-88377028b/">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="imagens/topo.png" width="300px" height="300px">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS ESPECIALIDADES</h2>
+                <div class="flex">    
+                    <div class="especialidades-box">
+                        <i class="bi bi-file-earmark-code"></i>
+                        <h3>Html, Css</h3>
+                        <p>Linguagens de front-end avançadas</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-regex"></i>
+                        <h3>C, C++, Python</h3> 
+                        <p>Linguagens de back-end intermediárias</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-braces-asterisk"></i>
+                        <h3>JavaScript, Php</h3>
+                        <p>Linguagens de back-end básicas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div id="fim"></div> <!-- Adicionado aqui -->
+    </main>
+
+    <script>
+        document.getElementById('link-especialidades').addEventListener('click', function(event) {
+            event.preventDefault();
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
