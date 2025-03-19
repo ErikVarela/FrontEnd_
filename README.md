@@ -11,7 +11,7 @@ A criação deste portfólio foi inspirada pela busca de um design minimalista e
 
 Ao longo do desenvolvimento, procurei adotar uma abordagem que valorizasse a funcionalidade, com foco em destacar o conteúdo de forma clara e sem excessos visuais. A combinação de uma paleta de cores sóbrias e elementos discretos visa criar uma atmosfera sofisticada, sem comprometer a usabilidade. Como visto nesse exemplo a seguir:
 
-![Screenshot](https://imgur.com/a/QavG8wD)
+![Screenshot](https://i.imgur.com/aBND25E.jpeg)
 
 **Como Funciona: 📝** 
 
@@ -25,4 +25,4 @@ Este portfólio foi desenvolvido com design responsivo, uma abordagem essencial 
 
 A principal prioridade foi garantir uma experiência de navegação intuitiva e agradável em qualquer plataforma, promovendo a acessibilidade e a facilidade de uso, independentemente do dispositivo utilizado.
 
-![Desing](https://imgur.com/a/iTeQ9AF)
+![Desing](https://i.imgur.com/8pMxESw.jpeg)
